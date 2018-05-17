@@ -22,7 +22,7 @@ router.get('/', function(req, res, next) {
 
 /* GET credits page: Renderiza la vista ejs de la pagina de créditos */
 router.get('/credits', function(req, res, next) {
-  res.render('Credits', { title: 'Credits' });
+  res.render('credits', { title: 'Credits' });
 });
 
 //El fichero routes/index.js debe importar el modelo y añadir 
